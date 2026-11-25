@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coffee-vinhetas-express"
+version = "1.0.0"
+description = "Processador desktop Windows de inserção automatizada de vinhetas com ducking inteligente."
+readme = "README.md"
+authors = [
+    { name = "Café - Sistemas & Softwares" },
+]
+requires-python = ">=3.11"
+dependencies = [
+    "PySide6>=6.7",
+]
+
+[project.optional-dependencies]
+build = [
+    "pyinstaller>=6.0",
+]
+
+[project.gui-scripts]
+coffee-vinhetas-express = "coffee_vinhetas.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

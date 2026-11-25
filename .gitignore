@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+.Python
+pip-wheel-metadata/
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Build / PyInstaller
+build/
+dist/
+*.manifest
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e arquivos temporários
+*.log
+.tmp_coffee_*
+COM_VINHETA/
